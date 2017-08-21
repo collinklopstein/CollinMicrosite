@@ -1,0 +1,243 @@
+
+/* ###### CRM ###### */
+#crm{
+  background: url(../img/crm/CRM_photo.jpg) no-repeat fixed;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+  color: #fff; 
+  border-bottom: 5px solid #10A187;
+}
+a.scroll-down:hover {
+    color: #10A187;
+}
+.light-green{
+ color: #10A187; 
+}
+#crm-parallax .element-container, #crm-agents .element-container{
+    text-align: center;
+    vertical-align: middle;
+}
+#crm-parallax h1{
+  margin-bottom: 40px;
+}
+#crm-solutions .section-title .line, #touchpoints .section-title .line{
+  background: #10A187;
+  border: 1px solid #10A187;
+}
+#crm-solutions .section-lead, #touchpoints .section-lead{
+  font-weight: 600;
+  line-height: 1.75;
+  color: #898989;
+}
+#crm-solutions .element-line {
+    margin: 30px 0px;
+    /* padding: 20px; */
+    position: relative;
+    min-height: 450px;
+    background-color: #edefee;
+}
+#crm-solutions .element-line:hover, #crm-solutions .element-line:hover .practices, #crm-solutions .element-line:hover h5, #crm-solutions .element-line:hover p {
+  color: #fff;
+  background-color: #10A187;
+}
+#crm-solutions .element-line .solution {
+    position: absolute;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#crm-solutions .element-line .practices {
+    width: 100%;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#crm-solutions .element-line h5 {
+    font-style: italic;
+    color: #333333;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#crm-solutions .element-line p{
+  color: #333333;
+  margin-bottom: 20px;
+  padding: 0 30px 0 30px;
+}
+#crm-separator h1{
+  font-size: 48px;
+}
+.crm-services {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;        
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.crm-services .service-block {
+    flex-basis: 25%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+#crm-agents{
+  width: 100%;
+  position: relative;
+}
+#crm-agents h5, #crm-agents p{
+  color: #fff;
+}
+#crm-agents h5{
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+#crm-agents p{
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+.yellow-box {
+    background-color: #10A187;
+    color: #333333;
+    display: table;
+    margin: 10px 0;
+    width:100%;
+    min-height: 100px;
+    font-size: 17px;
+}
+.yellow-box > div{
+  display: table-cell;
+  vertical-align: middle;
+}
+#crm-services .section-title img{
+  display: block;
+  margin: auto;
+}
+.pricing-5-col .pricing-box {
+  width: 20%;
+}
+.pricing-box {
+  margin: 0px; 
+  padding: 0px; 
+  text-align: left; 
+  float: left;
+}
+.pricing-box ul {
+  margin: 0px; 
+  padding: 0px; 
+  border-top-color: rgb(238, 238, 238); 
+  border-left-color: rgb(238, 238, 238); 
+  border-top-width: 1px; 
+  border-left-width: 1px; 
+  border-top-style: solid; 
+  border-left-style: solid;
+}
+.last.pricing-box ul {
+  border-right-color: rgb(238, 238, 238); 
+  border-right-width: 1px; 
+  border-right-style: solid;
+}
+.pricing-box li {
+  list-style: none; 
+  margin: 0px; 
+  padding: 15px 5px 15px 15px; 
+  border-bottom-color: rgb(238, 238, 238); 
+  border-bottom-width: 1px; 
+  border-bottom-style: solid;
+  color: #333333;
+}
+.left-text {
+  text-align: left;
+}
+.pricing-box li h4 {
+  color: #333333;
+  margin: 0px; 
+  padding:5px; 
+  font-size: 18px; 
+  font-weight: 400;
+}
+.pricing-box li h1 {
+  margin: 0px; 
+  font-size: 45px; 
+  font-weight: 600;
+}
+.pricing-box li.title-row {
+  padding: 15px 0px; 
+  text-align: center;
+}
+.pricing-box li.price-row {
+  background: rgb(245, 245, 245); 
+  padding: 15px 0px; 
+  text-align: center;
+}
+.pricing-box li.price-row span {
+  font-weight: 600; 
+  display: block;
+}
+.pricing-box li.btn-row {
+  background: rgb(245, 245, 245);
+}
+.pricing-featured {
+  margin-top: -25px; 
+  position: relative; 
+  z-index: 5; 
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5); 
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5); 
+  -moz-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+.pricing-box .pricing-featured li.price-row h1 {
+  color: rgb(255, 255, 255);
+}
+#crm-links{
+  background-color: #10A187;
+  
+}
+.link-rows{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.link-rows .links{
+  flex-basis: 33%;
+  margin: 0 auto;
+  flex-grow: 1;
+  color: #333333;
+  padding: 20px 0;
+}
+#crm-links a i, #crm-links a h4{
+  color: #333333;
+  -webkit-transition: all .1s ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all .1s ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all .1s ease-in;
+    -moz-transform: scale(1);
+    transition: all .1s ease-in;
+    transform: scale(1); 
+}
+#crm-links a > i, #crm-links a > h4{
+  padding: 5px 0; 
+}
+#crm-links a:hover i{
+   -webkit-transition: all .1s ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all .1s ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all .1s ease-in;
+    -moz-transform: scale(1.2);
+    transition: all .1s ease-in;
+    transform: scale(1.2);
+}
+
+
+

@@ -1,0 +1,88 @@
+/* ###### TEAM ###### */
+#team{
+    background: url(../img/team/Team_phptp.jpg) no-repeat fixed;
+    position: relative;
+    height: calc(100vh - 60px);
+    width: 100%;
+    color: #fff;
+    border-bottom: 5px solid #26AF61; 
+}
+a.scroll-down:hover {
+    color: #26AF61;
+}
+.light-blue{
+  color: #26AF61;
+}
+/* ###### CARD FLIP ANIMATION ###### */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	float: left;
+}
+
+/* flip the pane when hovered - screen sizes larger than 1024px only */
+  .flip-container:hover .back {
+    z-index: 2;
+    transform: rotateY(0deg);
+    opacity: 1;
+   transition: opacity .3s ease-in-out;
+   -moz-transition: opacity .3s ease-in-out;
+   -webkit-transition: opacity .3s ease-in-out;
+    }
+  .flip-container:hover .front {
+    z-index: 1;
+    }
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  bottom: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+  background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+/* back, initially hidden pane */
+.back {
+  opacity: 0;
+	transform: rotateY(180deg);
+	background-color: #26AF61;
+	text-align: left;
+	color: #ffffff;
+	padding: 40px 15px 40px 15px;
+}
+.back div.bottom{
+	position:absolute;
+	bottom:0;
+	padding-bottom: 40px;
+}
+.back h2{
+	font-size: 40px;
+	font-weight: 300;
+  	color: #ffffff;
+  	letter-spacing: 2px;
+}
+
+.back h3{
+	text-transform: uppercase;
+	font-size: 14px;
+   	color: #ffffff;
+   	letter-spacing: 2px;
+}
+
+.back div.bottom h4{
+	font-weight: 300;
+   color: #ffffff;
+}

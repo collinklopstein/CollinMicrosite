@@ -1,0 +1,59 @@
+/* ###### SIGNAGE ###### */
+#signage{
+  background: url(../img/signage/signage_photo.jpg) no-repeat fixed;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+  color: #fff; 
+  border-bottom: 5px solid #ffd101;
+}
+a.scroll-down:hover {
+    color: #ffd101;
+}
+.section-lead-description{
+  color: #ffd101;
+}
+.section-title .line, .section-title .line {
+    background: #ffd101;
+    border: 1px solid #ffd101;
+}
+#signage-parallax2 .fa{
+  color: #ffd101;
+}
+#signage-parallax2 p.text-center {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#signage-parallax2 p {
+    color: #ffffff;
+}
+.block {
+    padding: 40px 80px;
+}
+#chart{
+  background-color: #edefee;
+}
+.chart-img{
+  margin-top: 30px;
+}
+.team-button{
+  margin-top: 60px;
+}
+.button {
+    background: transparent;
+    border: 1px solid #ffd101;
+    color: #ffd101;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+  background: #ffd101;
+  border: 1px solid #ffd101;
+  color: #ffffff;
+}

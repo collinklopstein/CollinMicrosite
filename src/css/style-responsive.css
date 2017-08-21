@@ -1,0 +1,381 @@
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.flexslider{ 
+		text-align:center;
+	}
+}
+@media (max-width: 1220px){
+	.card-title{
+		font-size: 14px;
+	}
+	.card-company{
+		font-size: 16px;
+	}
+}
+@media (max-width: 1024px) {
+	.item_top {
+		top: 0;
+		opacity: 1;
+	}
+	.item_left {
+		left: 0px;
+		opacity: 1;
+	}
+	.item_right {
+		right: 0px;
+		opacity: 1;
+	}
+	.item_bottom {
+		bottom: 0;
+		opacity: 1;
+	}
+	.item_fade_in {
+		opacity: 1;
+		right: 0px;
+	}
+	.parallax {
+		background-attachment: scroll !important;
+		background-position: center top !important;
+		height: auto;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.header_description{
+		padding: 0 20px 0 20px;
+	}
+	/* ###### ABOUT ###### */
+	.lead-image{
+		display: none;
+	}
+	.team-pics{
+		display: none;
+	}
+	.mobile-team-list{
+		display: block;
+		text-align: center;
+		padding-top: 40px;
+		list-style: none;
+		-webkit-padding-start: 0;
+	}
+	.mobile-team-list li p.lead{
+		font-weight: 700;
+		font-size: 22px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 992px){
+	.page_heading{
+		font-size: 105px;
+	}
+	#mobile .block{
+		padding: 20px;
+	}
+	.team-pics li{
+		padding: 0 10px;
+	}
+	.main_header_content .header_description{
+  		font-size: 32px;
+  		line-height: 1;
+	}
+	.section-title .section-lead, p.lead, p.lead a{
+		padding: 0 40px 0 40px;
+	}
+	#team_about .lead {
+    	padding: 0 40px 0 40px;
+	}
+	/* ###### TEAM ###### */
+	.back{
+		padding: 20px;
+	}
+	.back h2{
+		font-size: 24px;
+	}	
+	.back div.bottom{
+		padding: 0;
+	}
+	.back div.bottom h4{
+		font-size: 16px;
+	}
+	.flex-control-nav {
+    	top: 60%;
+    }
+    /* ###### CRM ###### */
+    .pricing-5-col .pricing-box {
+    	width: 100%;
+    	margin: 0;
+	}
+	/* ###### Contact ###### */
+	#contact-info .element-line .solution{
+		padding-left: 10px;
+	}
+	.bar{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	/* ###### Work Landing Page ###### */
+	.work-wrapper{
+		width: 50%;
+	}
+	/* ###### DETAILS ###### */
+	.details{
+		flex-direction: column;
+	}
+	.details-description, .details-img{
+		flex-basis: 100%;
+		padding: 40px;
+	}
+}
+/* ExtraSmall devices (tablets, 767px and down) */
+@media (max-width: 767px) {
+	.flexslider{ 
+		text-align:center;
+	}
+	#home video{
+		display: none;
+	}
+	#home #myModal video{
+		display: block;
+	}
+	#mobile-background{
+		display: block;
+	}
+	#home .section-title h1, header .main_header_content h1 {
+		font-size: 48px;
+		line-height: 40px;
+		padding:0 0 10px 0;
+		border-color: #666;
+		letter-spacing: 1px;
+	}
+	#home p.lead, header .main_header_content h5 {
+		font-size: 16px;
+		line-height: 21px;
+		margin: 0 0 25px;
+	}
+	.fullscreen-slider-arrow {
+		bottom: 10px;
+		margin-top: 0;
+		top: auto;
+		width: 23px;
+		overflow: hidden;
+	}
+	#slider_left {
+		left: 18px;
+	}
+	#slider_right {
+		right: 18px;
+	}
+	.page_subheading{
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+	.header_description {
+		color: #fefefe;
+		font-weight: 300;
+		font-size: 20px;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.main_header_content .header_description{
+  		font-size: 24px;
+  	}
+	#about_us, #team, #work, #contact_us{
+		background-attachment: scroll !important;
+    	background-position: center center !important;
+    	margin: 0 auto;
+    	width: 100%;
+	}
+	.section-content {
+		padding: 60px 0;
+	}
+	.section-content h1{
+		font-size: 26px;
+	}
+	.section-content h3{
+		font-size: 22px;
+	}
+	.section-title .line.big {
+		width: 100px;
+	}
+	.section-title h1{
+		font-size: 42px !important;
+		line-height: 50px;
+		margin: 0 0 8px;
+		padding: 4px 0 5px 0;
+	}
+	.section-title .lead {
+		margin: 25px 0 0 0;
+		text-align:center;
+	}
+	.section-title .section-lead, p.lead, p.lead a {
+    	padding: 0 16px 0 16px;
+	}
+	.section-title .section-lead {
+    	font-size: 16px;
+	}
+	.section-title h1.small{
+		margin-top: 0;
+	}
+	.element-line {
+		margin-top: 40px;
+	}
+	.parallax h1{
+		font-size: 36px;
+	}
+	#am-parallax1 h2{
+		font-size: 26px;
+	}
+	.parallax h4 {
+		font-size: 20px;
+	}
+	#seven-parallax h1{
+		font-size: 36px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.number-counters strong{
+		font-size: 48px;
+		line-hieght: 48px;
+	}
+	.count-description{
+		font-size: 20px;
+		padding-top: 0;
+	}
+	#contact .element-line{
+		margin-top: 60px;
+	}
+	#practice h3{
+		font-size: 16px;
+	}
+	#practice p{
+		font-size: 14px;
+	}
+	#team_about .lead {
+    	padding: 0 16px 0 16px;
+	}
+	#mobile .block{
+		padding: 40px;
+	}
+	#mobile .block .element-line{
+		margin-top: 20px;
+	}
+	#mobile .section-title .big-text{
+		font-size: 32px;
+		line-height: 1.25;
+	}
+	
+	.flexslider {
+		text-align: center;
+	}
+	.circular-pie, .circular-pie canvas {
+  		max-width: 150px;
+  		max-height: 150px;
+	}
+	.circular-pie span {
+    	top: 20px;
+       	left: 20px;
+    	height: 110px;
+    	width: 110px;
+    	line-height: 100px;
+    	font-size: 48px;
+    	box-shadow: none;   
+	}
+	#demo_slider h1{
+		font-size: 42px;
+	}
+	/* ###### CRM ###### */
+	.title{
+		font-size: 12px;
+	}
+	/* ###### Contact ###### */
+	.contacts{
+		flex-basis: 100%;
+	}
+	/* ###### Work ###### */
+	.work-wrapper {
+    width: 100%;
+	}
+	/* ###### Details ###### */
+	.details{
+		flex-direction: column;
+	}
+}
+@media (max-width: 480px){
+	#home .section-title h1{
+		font-size: 42px;
+	}
+	.parallax h4, .parallax h2{
+		padding: 0;
+	}
+	.contacts{
+		margin-bottom: 0;
+	}
+	/* ###### HOME ####### */
+	.header_description{
+		font-size: 18px;
+		padding: 10px;
+	}
+	/* ###### TEAM ###### */
+	.back{
+		padding: 10px;
+	}
+	.back h2{
+		font-size: 18px;
+	}	
+	.back div.bottom{
+		padding: 0;
+	}
+	.back div.bottom h4{
+		font-size: 14px;
+	}
+	/* ###### ABOUT ###### */
+	#practice .element-line {
+		min-height: 350px;
+	}
+	#practice p{
+		font-size: 12px;
+		padding: 0;
+	}
+	.flex-control-nav{
+		top: 45%;
+	}
+	/* ###### CRM ###### */
+	.crm-services .service-block, .link-rows .links{
+		flex-basis: 50%;
+	}
+	/* ###### WORK ###### */
+	.overlay img {
+    	max-width: 160px;
+    	max-height: 120px;
+	}
+	.grid-navigation a{
+		font-size: 10px;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	#home .section-title h1, header .main_header_content h1{
+		font-size: 42px;
+	}
+	#practice .element-line .solution, #contact-info .element-line .solution{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.section-content{
+		padding: 20px 0;
+	}
+	.flex-control-nav{
+		top: 40%;
+	}
+	.back div.bottom h4{
+		font-size: 11px;
+	}
+}
+
+
+
