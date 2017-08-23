@@ -1,9 +1,7 @@
 # CollinMicrosite
 
 ## Prerequisites
-
-1. [Node](http://nodejs.org/)
-2. [Python 2.* not 3.*](https://www.python.org/) -- needed for node-gyp
+[Node](http://nodejs.org/)
 
 ### Staging Site
 [http://digital-aspect.azurewebsites.net](http://digital-aspect.azurewebsites.net)
@@ -13,12 +11,7 @@
 1. Clone the repository
 
 2. `npm install`
-    - if you get node-gyp rebuild errors, see
-      * https://github.com/nodejs/node-gyp/wiki/Updating-npm's-bundled-node-gyp
-      * https://github.com/nodejs/node-gyp/issues/629
-      * https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245
-      * https://github.com/nodejs/node-gyp
-
+    
 ##### Tasks
 
 1. Test on local server
