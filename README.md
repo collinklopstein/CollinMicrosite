@@ -5,7 +5,7 @@
 1. [Node](http://nodejs.org/)
 2. [Python 2.* not 3.*](https://www.python.org/) -- needed for node-gyp
 
-####Staging Site
+### Staging Site
 [http://digital-aspect.azurewebsites.net](http://digital-aspect.azurewebsites.net)
 
 #### Getting Started
