@@ -5,7 +5,10 @@
 1. [Node](http://nodejs.org/)
 2. [Python 2.* not 3.*](https://www.python.org/) -- needed for node-gyp
 
-## Getting Started
+####Staging Site
+[http://digital-aspect.azurewebsites.net](http://digital-aspect.azurewebsites.net)
+
+#### Getting Started
 
 1. Clone the repository
 
@@ -16,7 +19,7 @@
       * https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245
       * https://github.com/nodejs/node-gyp
 
-## Tasks
+##### Tasks
 
 1. Test on local server
 	```
@@ -24,6 +27,6 @@
 	```
 
 
-### Example Flow
+###### Example Flow
 - [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
 - [https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
